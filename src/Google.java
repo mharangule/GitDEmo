@@ -9,6 +9,7 @@ public class Google {
 	    driver.navigate().to("http://www.google.com/"); 
 	    System.out.println(driver.getTitle());
 	    driver.close();
+	    
 	}
 
 }
