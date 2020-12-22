@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -12,6 +13,7 @@ public class Google {
 	    driver.close();
 	    driver.quit();
 	    driver.close();
+	    driver.findElement(By.cssSelector(""));
 	}
 
 }
