@@ -14,6 +14,8 @@ public class Google {
 	    driver.quit();
 	    driver.close();
 	    driver.findElement(By.cssSelector(""));
+	    driver.findElement(By.cssSelector(""));
+	    driver.findElement(By.cssSelector("hgfjgfjgjgf"));
 	}
 
 }
